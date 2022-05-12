@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology of the Day</title>
+    <link rel="stylesheet" href="./homePage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+  <nav>
+    <div class="nav-left">
+        <a target="blank_" href="https://api.nasa.gov/">
+            <img src="../assets/nasa-logo-removebg-preview.png" alt="nasa_logo" target="_blank">
+        </a>
+    </div>
+    <div class="nav-right">
+        <a class="nav-text" href="../index.html">
+            <p>Home</p>
+        </a>
+        <a class="nav-text" href="../about/about.html">
+            <p>Sobre</p>
+        </a>
+        <a class="nav-text" href="../contact/contact.html">
+            <p>Contato</p>
+        </a>
+    </div>
+</nav>
+  <form id="form">
+    <label for="data" class="date">Digite uma data desejada:</label> <br>
+    <input id="data" type="date"></input>
+    <input id="submit" type="submit" value="Pesquisar">
+  </form>
+  <div class="data-info">
+            
+  </div>
+<script
+src="https://code.jquery.com/jquery-3.6.0.js"
+integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+crossorigin="anonymous"></script>
+
+<script src="./homePage.js"></script>
+</body>
+</html>
