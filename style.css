@@ -85,3 +85,17 @@ button:hover {
     box-shadow:hsl(216, 89%, 7%) 10px 20px 30px 10px; 
     cursor: pointer;
 }
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    max-height: 40px;
+    width: 100%;
+    color: whitesmoke;
+    border-top: 2px solid whitesmoke;
+}
+
+.linkedin:hover {
+    text-decoration: underline;
+}

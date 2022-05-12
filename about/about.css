@@ -80,3 +80,17 @@ h4 {
 .site:hover {
     text-decoration: underline;
 }
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    max-height: 40px;
+    width: 100%;
+    color: whitesmoke;
+    border-top: 2px solid whitesmoke;
+}
+
+.linkedin:hover {
+    text-decoration: underline;
+}
