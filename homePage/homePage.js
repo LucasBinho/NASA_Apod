@@ -17,7 +17,17 @@ let botao = document.getElementById('submit');
 botao.addEventListener('click', function(event){
     event.preventDefault();
     let textoData = document.getElementById('data').value
-    api(textoData);
+    try {
+        if (textoData >= "1995-06-16") {
+            api(textoData);
+        } else {
+            throw new Error("Por favor, digite uma data acima de 16 de junho de 1995")
+        }
+        
+    } catch(error) {
+        alert(error)
+    }
+    
 })  
 
 
