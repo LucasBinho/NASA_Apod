@@ -24,7 +24,7 @@ botao.addEventListener('click', function(event){
             throw new Error("Por favor, digite uma data acima de 16 de junho de 1995")
         }
         
-    } catch(error) {
+    } catch(error) {    
         alert(error)
     }
     
